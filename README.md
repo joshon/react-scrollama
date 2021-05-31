@@ -142,6 +142,7 @@ These are the props you can set on the `Scrollama` component itself:
 | onStepEnter    | `function`                |         | Callback that fires when the top or bottom edge of a step enters the offset threshold.  |
 | onStepExit     | `function`                |         | Callback that fires when the top or bottom edge of a step exits the offset threshold.   |
 | onStepProgress | `function`                |         | Callback that fires the progress a step has made through the threshold.                 |
+| progress       | `boolean`                 | false   | Whether to fire progress callbacks.                                                     |
 | debug          | `boolean`                 | false   | Whether to show visual debugging tools.                                                 |
 
 The `onStepEnter` and `onStepExit` callbacks receive one argument, an object, with the following properties:
